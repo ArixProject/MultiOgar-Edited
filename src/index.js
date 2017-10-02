@@ -24,7 +24,7 @@ process.on('uncaughtException', function (err) {
 // Run MultiOgar-Edited
 var gameServer = new GameServer();
 Logger.info("\u001B[1m\u001B[32mMultiOgar-Edited " + gameServer.version + "\u001B[37m - An open source multi-protocol ogar server\u001B[0m");
-
+Logger.info("Edited By Megabyte918 : GitHub/Megabyte918");
 // Handle arguments
 process.argv.forEach(function (item) {
     
